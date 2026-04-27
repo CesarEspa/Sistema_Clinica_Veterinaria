@@ -3,12 +3,12 @@ import java.util.ArrayList;
 public class Gato extends Animal implements Vacunable, Asegurable {
 
     private Boolean esEsterilizado;
-    private ArrayList<String> vacunas;
+    private ArrayList<String> listaVacunas;
 
     public Gato(String nombre, int edad, String dueno, boolean esEsterilizado) {
         super(nombre, edad, dueno);
         this.esEsterilizado = esEsterilizado;
-        this.vacunas = new ArrayList<String>();
+        this.listaVacunas = new ArrayList<String>();
     }
 
 
