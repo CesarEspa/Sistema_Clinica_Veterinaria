@@ -40,11 +40,11 @@ public class Gato extends Animal implements Vacunable, Asegurable {
 
     @Override
     public void registrarVacuna(String vacuna) {
-
+        listaVacunas.add(vacuna);
     }
 
     @Override
     public int getVacunasAplicada() {
-        return 0;
+        return listaVacunas.size(); //
     }
 }

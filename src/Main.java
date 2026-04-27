@@ -9,5 +9,14 @@ public class Main {
 
         Animal m3 = new Ave("Piolin", 1, "Pedro",50);
         System.out.println(m3.prestacionFicha());
+
+        ((Vacunable) m1).registrarVacuna("Rabia");
+        ((Vacunable) m1).registrarVacuna("Moquillo");
+        System.out.println(((Vacunable) m1).getVacunasAplicada());
+
+        ((Vacunable) m2).registrarVacuna("Rabia");
+        ((Vacunable) m2).registrarVacuna("Moquillo");
+        System.out.println(((Vacunable) m2).getVacunasAplicada());
+
     }
 }
