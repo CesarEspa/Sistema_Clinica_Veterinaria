@@ -1,8 +1,7 @@
 import java.util.ArrayList
 
-public class Perro extends Animal implements Vacunable {
+public class Perro extends Animal implements Vacunable, Asegurable {
     private String raza;
-    list <String> vacunas = new ArrayList<>();
 
     public Perro(String nombre, int edad, String dueno, String raza) {
         super(nombre, edad, dueno);
@@ -12,6 +11,7 @@ public class Perro extends Animal implements Vacunable {
     @Override
     public double calcularCostoConsulta() {
         return 45000+ (getEdad()*3000);
+        this.vacunas = new ArrayList<String>(); // revisar
     }
 
 
@@ -22,6 +22,9 @@ public class Perro extends Animal implements Vacunable {
 
     @Override
     public int getVacunasAplicada() {
-        return 0;
+        return vacunas.size; // revisar
     }
+
+
+
 }

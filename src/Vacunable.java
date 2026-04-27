@@ -1,4 +1,4 @@
 public interface Vacunable {
-    void registrarVacuna(String vacuna);
+    void registrarVacuna(String vacuna); // nombre
     int getVacunasAplicada();
 }

@@ -6,6 +6,7 @@ Integrantes Grupo 2
 - Handry Moran
 - Andres Diaz
 
+
 - A tributos comunes: Identifica los tres datos que todo animal tiene, sin importar la especie. Decide qué modificador de // acceso corresponde a cada uno y justifica por qué no son private ni public.
 
 Rsta: Por confidencialidad de lainformación y privacidad de datos del sistema//
